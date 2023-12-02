@@ -24,8 +24,6 @@ public class Selection_Sort{
 
         int[] arr = {13, 46, 24, 52, 20, 9};
         int n = arr.length;
-
-
         selection_sort(arr, n);
     }
 }

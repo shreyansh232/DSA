@@ -12,6 +12,7 @@ public class Bubble_Sort {
             }
 
         }
+        System.out.println("After bubble sort: ");
         for (int i = 0; i < n; i++){
             System.out.print(arr[i] + " ");
         }
@@ -19,7 +20,6 @@ public class Bubble_Sort {
 
     }
     public static void main(String[] args) {
-
         int[] arr = {13, 46, 24, 52, 20, 9};
         int n = arr.length;
         bubbleSort(arr, n);

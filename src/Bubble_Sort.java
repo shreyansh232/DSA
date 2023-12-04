@@ -16,8 +16,6 @@ public class Bubble_Sort {
         for (int i = 0; i < n; i++){
             System.out.print(arr[i] + " ");
         }
-
-
     }
     public static void main(String[] args) {
         int[] arr = {13, 46, 24, 52, 20, 9};

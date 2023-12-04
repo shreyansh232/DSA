@@ -71,7 +71,6 @@ public class Highest_lowest_freq {
                 }
         System.out.print(maxEle + " ");
         System.out.println(minEle);
-
             }
     }
 

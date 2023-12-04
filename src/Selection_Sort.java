@@ -17,7 +17,6 @@ public class Selection_Sort{
             System.out.print(arr[i] + " ");
         }
 
-
     }
 
     public static void main(String[] args) {

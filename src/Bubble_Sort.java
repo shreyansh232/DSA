@@ -23,6 +23,7 @@ public class Bubble_Sort {
         int[] arr = {13, 46, 24, 52, 20, 9};
         int n = arr.length;
         bubbleSort(arr, n);
+
     }
 
 }

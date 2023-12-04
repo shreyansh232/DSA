@@ -19,5 +19,4 @@ public class Bubble_Sort {
         int n = arr.length;
         bubbleSort(arr, n);
     }
-
 }

@@ -6,7 +6,6 @@ public class Selection_Sort{
                 if (arr[j] < arr[mini]){
                     mini = j;
                 }
-
             }
             int temp = arr[i];
             arr[i] = arr[mini];

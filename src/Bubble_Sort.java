@@ -10,7 +10,6 @@ public class Bubble_Sort {
 
                 }
             }
-
         }
         System.out.println("After bubble sort: ");
         for (int i = 0; i < n; i++){

@@ -4,9 +4,11 @@ public class Merge_Sort {
 
 
 
-
-
-
+    }
+    public static int[] mergeSort(int[] arr){
+        if(arr.length == 1){
+            return arr;
+        }
 
 
 

@@ -3,7 +3,7 @@ public class Merge_Sort {
     public static void main(String[] args) {
         int[] arr = {5,3,2,4,7,8};
         arr = mergeSort(arr);
-        System.out.println();
+        System.out.println(Arrays.toString(arr));
 
     }
     public static int[] mergeSort(int[] arr){

@@ -4,7 +4,6 @@ public class Merge_Sort {
         int[] arr = {5,3,2,4,7,8};
         arr = mergeSort(arr);
         System.out.println(Arrays.toString(arr));
-
     }
     public static int[] mergeSort(int[] arr){
         if(arr.length == 1){

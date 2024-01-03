@@ -1,4 +1,4 @@
-//public class Insertion_Sort {
+package sort;//public class sort.Insertion_Sort {
 //    public static void insertionSort(int[] arr, int n){
 //        for (int i = 0; i < n; i++){
 //            int j = i;

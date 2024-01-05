@@ -12,6 +12,7 @@ public class Left_Rotate_One {
         int temp = arr[0];
 
         for (int i = 1; i < n ; i++ ){
+
             arr[i-1] = arr[i];
 
         }

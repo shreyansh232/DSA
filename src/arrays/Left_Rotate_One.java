@@ -16,6 +16,7 @@ public class Left_Rotate_One {
 
         }
         arr[n - 1] = temp;
+
         for (int i = 0; i < n; i++){
 
             System.out.print(arr[i]);

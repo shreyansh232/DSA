@@ -49,8 +49,6 @@ public class Move_Zeroes {
                 a[j] = temp;
                 j++;
             }
-
-
         }
         return a;
 
@@ -65,7 +63,4 @@ public class Move_Zeroes {
         }
         System.out.println(" ");
     }
-
-
-
 }

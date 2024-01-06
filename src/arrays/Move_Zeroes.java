@@ -4,7 +4,7 @@ import java.util.*;
 public class Move_Zeroes {
     public static int[] moveZeros(int[] a) {
        ArrayList<Integer> temp = new ArrayList<>();
-       for (int i = 0; i < a.length; i++){
+       for (int i : a){
            if (a[i] != 0){
                temp.add(a[i]);
 

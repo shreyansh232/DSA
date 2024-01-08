@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class Remove_Duplicates {
     public static void main(String[] args) {
-        int[] arr = {1,1,2,2,2,3,3};
+        int[] arr = {1,1,2,2,2,3,3,4};
         int k = removeDuplicates(arr);
         System.out.println("The array after removing duplicate elements is ");
         for (int i = 0; i < k; i++) {

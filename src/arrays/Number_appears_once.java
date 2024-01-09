@@ -10,6 +10,8 @@ public class Number_appears_once {
 
 
         return xor;
+
+
     }
     public static void main(String args[]) {
         int[] arr = {4, 1, 2, 1, 2};

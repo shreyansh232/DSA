@@ -1,6 +1,8 @@
 package arrays;
 
+
 public class Number_appears_once {
+    //optimal
     public static int number(int[] arr) {
         int xor = 0;
 

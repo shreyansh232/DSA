@@ -7,6 +7,7 @@ public class Number_appears_once {
             xor = xor ^ arr[i];
 
         }
+
         return xor;
     }
     public static void main(String args[]) {

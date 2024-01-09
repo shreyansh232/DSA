@@ -8,6 +8,7 @@ public class Number_appears_once {
 
         }
 
+
         return xor;
     }
     public static void main(String args[]) {

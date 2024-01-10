@@ -6,6 +6,7 @@ public class Number_appears_once {
     public static int number(int[] arr) {
         int xor = 0;
 
+
         for (int i = 0; i < arr.length; i++) {
             xor = xor ^ arr[i];
 

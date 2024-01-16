@@ -33,31 +33,26 @@ public class Move_Zeroes {
 //        System.out.println(" ");
 //    }
     //optimal
-    public static int[] moveZeros( int []a) {
-        int j = -1;
-        for (int i = 0; i < a.length; i++){
-            if (a[i] == 0){
-                j = i;
-                break;
+    public static int[] moveZeroes(int[] nums) {
+        int i = 0;
+        int n = nums.length;
+        for (int num:nums){
+            if(num != 0){
+                nums[i] = num;
+                i++;
             }
         }
-        if (j == -1) return a;
-        for (int i = j+1; i < a.length; i++ ){
-            if (a[i] != 0 ){
-                int temp = a[i];
-                a[i] = a[j];
-                a[j] = temp;
-                j++;
-            }
+        while(i<n){
+            nums[i] = 0;
+            i++;
         }
-        return a;
+        return nums;
 
     }
-
     public static void main(String[] args) {
         int[] arr = {1, 0, 2, 3, 2, 0, 0, 4, 5, 1};
         int n = arr.length;
-        int[] ans = moveZeros( arr);
+        int[] ans = moveZeroes( arr);
         for (int i = 0; i < n; i++) {
             System.out.print(ans[i] + " ");
         }

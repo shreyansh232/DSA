@@ -3,7 +3,6 @@ package arrays;
 public class Left_Rotate_One {
     public static void main(String[] args) {
         int[] arr = {3,1,4,5,6,9,2};
-
         int n = arr.length;
 
         rotate(arr, n);

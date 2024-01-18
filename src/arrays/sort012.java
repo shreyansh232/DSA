@@ -1,6 +1,8 @@
 package arrays;
 
 public class sort012 {
+
+    //Better
     public static void sortColors(int[] nums) {
         int count1 = 0, count2 = 0, count3 = 0;
         for (int i : nums) {

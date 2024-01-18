@@ -1,8 +1,5 @@
 package arrays;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class sort012 {
     public static void sortColors(int[] nums) {
         int count1 = 0, count2 = 0, count3 = 0;

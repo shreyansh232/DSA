@@ -17,7 +17,7 @@ public class sort012 {
         for (int i = count1; i < count1 + count2; i++) nums[i] = 1;
         for (int i = count1 + count2; i < count1 + count2 + count3; i++) nums[i] = 2;
     }
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int n = 6;
         int[] arr = {0, 2, 1, 2, 0, 1};
         sortColors(arr);

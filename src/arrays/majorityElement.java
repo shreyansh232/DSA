@@ -14,6 +14,7 @@ public class majorityElement {
             else cnt--;
         }
 
+
         //checking if the stored element
         // is the majority element:
         int cnt1 = 0;

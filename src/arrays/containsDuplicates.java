@@ -3,7 +3,7 @@ package arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Contains_Duplicates {
+public class containsDuplicates {
     public static boolean dup(int[] arr){
         Set<Integer> set = new HashSet<>();
         for(int i : arr){

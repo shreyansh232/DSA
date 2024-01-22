@@ -1,8 +1,6 @@
 package arrays;
 
-import java.util.HashSet;
-
-public class Remove_Duplicates {
+public class removeDuplicates26 {
     public static void main(String[] args) {
         int[] arr = {1,1,2,2,2,3,3,4};
         int k = removeDuplicates(arr);

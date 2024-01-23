@@ -23,6 +23,7 @@ public class setMismatch {
         // }
 
         // return arr;
+        //Better
         int i =0;
 
         int[] arr = new int[2];

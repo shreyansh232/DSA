@@ -2,6 +2,7 @@ package arrays;
 
 public class setMismatch {
     public int[] findErrorNums(int[] nums) {
+        //Brute
         // int[] arr = new int[2];
         // HashSet<Integer> set = new HashSet<Integer>();
         // int n = nums.length;

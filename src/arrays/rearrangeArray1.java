@@ -5,7 +5,7 @@ public class rearrangeArray1 {
         int n = nums.length;
         int [] ans = new int[n];
         int posIndex = 0, negIndex = 1;
-        for(int i = 0; i < n; i++){
+        for(int i : nums){
             if(nums[i] > 0){
                 ans[posIndex] = nums[i];
                 posIndex += 2;

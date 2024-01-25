@@ -1,7 +1,6 @@
 package arrays;
-import java.util.*;
 
-public class Move_Zeroes {
+public class moveZeroes {
     //brute
 //    public static int[] moveZeros(int[] a) {
 //       ArrayList<Integer> temp = new ArrayList<>();

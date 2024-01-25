@@ -1,6 +1,6 @@
 package arrays;
 
-public class Max_consec_ones {
+public class maxConsececutiveOnes {
         public static int findMaxConsecutiveOnes(int[] nums) {
             int max = 0;
             int count = 0;

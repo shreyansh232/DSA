@@ -1,5 +1,7 @@
+package arrays;
+
 import java.util.*;
-public class Count_frequency {
+public class countFrequency {
 //    public static void main(String[] args) {
 //        int[] arr = {10, 5, 10, 3, 4, 4, 10};
 //        int n = arr.length;

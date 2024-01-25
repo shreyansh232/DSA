@@ -1,9 +1,6 @@
 package arrays;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class Longest_subarray_sumK {
+public class longestSubarraySumK {
     //Brute
 //    public static int getLongestSubarray(int []a, long k) {
 //        int n = a.length; // size of the array.

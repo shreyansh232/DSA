@@ -1,6 +1,6 @@
 package arrays;
 
-public class Left_Rotate_K {
+public class leftRotateK {
     //Brute
 //    public static void Rotatetoleft(int[] arr, int n, int k) {
 //       if(n == 0){

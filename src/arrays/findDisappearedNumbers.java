@@ -3,7 +3,7 @@ package arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindDisappearedNumbers {
+public class findDisappearedNumbers {
     public static void main(String[] args) {
         int[] nums = {4, 3, 2, 7, 8, 2, 1, 1};
         List<Integer> result = findDisappearedNumbers(nums);

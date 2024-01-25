@@ -1,6 +1,6 @@
 package arrays;
 
-public class Largest_Element {
+public class largestElement {
     public static void main(String[] args) {
         int[] arr = {3,1,4,5,6,9,2};
         largest(arr);

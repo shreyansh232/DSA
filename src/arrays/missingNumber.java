@@ -2,7 +2,7 @@ package arrays;
 
 
 //Brute approach
-public class Missing_Number {
+public class missingNumber {
 //    public static int missingNumber(int[] arr, int N){
 //
 //       for(int i = 1; i < N; i++){

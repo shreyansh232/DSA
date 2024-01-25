@@ -1,7 +1,9 @@
+package arrays;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class Highest_lowest_freq {
+public class highestLowestFrequency {
 //    public static void main(String[] args) {
 //        int[] arr = {10, 5, 10, 3, 4, 4, 10};
 //        int n = arr.length;

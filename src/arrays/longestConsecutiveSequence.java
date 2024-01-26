@@ -40,6 +40,7 @@ public class longestConsecutiveSequence {
                     x++;
                     cnt++;
                 }
+
                 longest = Math.max(longest, cnt);
             }
 

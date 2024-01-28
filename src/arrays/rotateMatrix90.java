@@ -1,6 +1,7 @@
 package arrays;
 
 public class rotateMatrix90 {
+    //Brute
 //    static int[][] rotate(int[][] matrix) {
 //        int n = matrix.length;
 //        int rotated[][] = new int[n][n];
@@ -25,6 +26,7 @@ public class rotateMatrix90 {
 //
 //    }
 
+    //Optimal
     static void rotate(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = i; j < matrix[0].length; j++) {

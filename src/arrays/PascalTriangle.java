@@ -15,15 +15,13 @@ public class PascalTriangle {
                 row.add(coef);
             }
 
-
-
-
-
-
             result.add(row);
         }
 
         return result;
+
+
+
     }
 
     

@@ -1,4 +1,5 @@
 package arrays;
+import java.util.*;
 
 public class MajorityElementnBy3 {
     public static List<Integer> majorityElement(int []v) {

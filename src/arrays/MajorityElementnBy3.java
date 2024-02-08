@@ -10,7 +10,7 @@ public class MajorityElementnBy3 {
             //selected element is v[i]:
             // Checking if v[i] is not already
             // a part of the answer:
-            if (ls.size() == 0 || ls.get(0) != v[i]) {
+            if (ls.isEmpty() || ls.get(0) != v[i]) {
                 int cnt = 0;
                 for (int j = 0; j < n; j++) {
                     // counting the frequency of v[i]

@@ -16,6 +16,7 @@ public class MajorityElementnBy3 {
                     // counting the frequency of v[i]
                     if (v[j] == v[i]) {
                         cnt++;
+
                     }
                 }
 

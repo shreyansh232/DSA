@@ -3,7 +3,7 @@ import java.util.*;
 
 public class MajorityElementnBy3 {
 
-    //comitting this
+    //comitting this yee haw
     public static List<Integer> majorityElement(int []v) {
         int n = v.length; //size of the array
         List<Integer> ls = new ArrayList<>(); // list of answers

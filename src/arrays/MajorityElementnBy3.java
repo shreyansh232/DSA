@@ -80,6 +80,5 @@ public class MajorityElementnBy3 {
         }
         System.out.println();
     }
-    }
 
 }

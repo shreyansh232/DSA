@@ -55,6 +55,7 @@ public class PascalTriangle {
         return (int) res;
     }
 
+
     public static List<List<Integer>> pascalTriangle(int n) {
         List<List<Integer>> ans = new ArrayList<>();
 

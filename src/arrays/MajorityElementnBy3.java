@@ -70,8 +70,8 @@ public class MajorityElementnBy3 {
 //
 //        return ls;
 //    }
-    class Solution {
-        public List<Integer> majorityElement(int[] nums) {
+
+        public static List<Integer> majorityElement(int[] nums) {
             int n = nums.length;
             int cnt1 = 0, cnt2 = 0;
             int ele1 = Integer.MIN_VALUE;
@@ -109,7 +109,6 @@ public class MajorityElementnBy3 {
 
             return result;
         }
-    }
 
 
     public static void main(String args[]) {

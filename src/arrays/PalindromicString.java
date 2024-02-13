@@ -1,5 +1,4 @@
 package arrays;
-import java.util.*;
 
 public class PalindromicString {
         public static String firstPalindrome(String[] words) {

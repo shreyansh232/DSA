@@ -11,7 +11,7 @@ public class PalindromicString {
             return "";
         }
         public static boolean isPalindrome(String str){
-            if(str== null || str.length() == 0){
+            if(str == null || str.isEmpty()){
                 return false;
             }
             for(int i = 0; i < str.length()/2; i++){
@@ -25,7 +25,6 @@ public class PalindromicString {
             return true;
         }
     public static void main(String[] args) {
-        // Example usage:
         String[] wordsArray = {"hello", "level", "world", "radar", "java"};
         String result = firstPalindrome(wordsArray);
         System.out.println(result);

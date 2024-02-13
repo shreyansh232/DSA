@@ -10,6 +10,7 @@ public class PalindromicString {
             }
             return "";
         }
+
         public static boolean isPalindrome(String str){
             if(str == null || str.isEmpty()){
                 return false;

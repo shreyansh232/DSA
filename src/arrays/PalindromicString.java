@@ -3,9 +3,9 @@ import java.util.*;
 
 public class PalindromicString {
         public static String firstPalindrome(String[] words) {
-            for(int str = 0; str < words.length; str++){
-                if (isPalindrome(words[str])){
-                    return words[str];
+            for (String word : words) {
+                if (isPalindrome(word)) {
+                    return word;
                 }
             }
             return "";

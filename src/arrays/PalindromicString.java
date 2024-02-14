@@ -23,6 +23,7 @@ public class PalindromicString {
                 }
             }
             return true;
+
         }
     public static void main(String[] args) {
         String[] wordsArray = {"hello", "level", "world", "radar", "java"};

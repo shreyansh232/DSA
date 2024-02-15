@@ -3,7 +3,7 @@ import java.util.*;
 
 public class PolygonPerimeter {
 
-        public long largestPerimeter(int[] nums) {
+        public static long largestPerimeter(int[] nums) {
             Arrays.sort(nums);
             int n = nums.length;
             long sum = 0;
@@ -21,7 +21,8 @@ public class PolygonPerimeter {
 
     public static void main(String[] args) {
             int[] nums = {1,2,4,6};
-            int ans =
+            long ans = largestPerimeter(nums);
+            System.out.println(ans);
 
     }
 }

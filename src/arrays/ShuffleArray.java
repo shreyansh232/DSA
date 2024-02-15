@@ -26,6 +26,5 @@ public class ShuffleArray {
         int n = 3;
         int[] ans = shuffle(nums, n);
         System.out.println(Arrays.toString(ans));
-
     }
 }

@@ -20,6 +20,8 @@ public class PolygonPerimeter {
         }
 
     public static void main(String[] args) {
+            int[] nums = {1,2,4,6};
+            int ans =
 
     }
 }

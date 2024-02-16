@@ -1,7 +1,6 @@
 package arrays;
 
 import java.util.Arrays;
-
 //1470. Shuffle the Array
 //Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
 //Return the array in the form [x1,y1,x2,y2,...,xn,yn].
@@ -25,6 +24,6 @@ public class ShuffleArray {
         int[] nums = {1,2,3,6,9,5};
         int n = 3;
         int[] ans = shuffle(nums, n);
-        System.out.println(Arrays.toString(ans));
+        System.out.println(Arrays.toString(ans))
     }
 }

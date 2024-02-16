@@ -24,6 +24,6 @@ public class ShuffleArray {
         int[] nums = {1,2,3,6,9,5};
         int n = 3;
         int[] ans = shuffle(nums, n);
-        System.out.println(Arrays.toString(ans))
+        System.out.println(Arrays.toString(ans));
     }
 }

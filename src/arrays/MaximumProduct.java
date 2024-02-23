@@ -15,6 +15,11 @@ public class MaximumProduct {
         }
         return res;
     }
+    public static void main(String[] args) {
+        int[] arr = {1, 2, -3, 0, -4, -5};
+        int answer = maxProductSubArray(arr);
+        System.out.println("The maximum product subarray is: " + answer);
+    }
 
 
 }

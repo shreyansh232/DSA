@@ -4,7 +4,7 @@ import java.util.*;
 public class TargetIndex {
     public static List<Integer> targetIndices(int[] nums, int target) {
         List<Integer> res = new ArrayList<>();
-        int count = 0, lessThan = 0;
+        int count = 0, lessThan = 0; //lessThan finds out how many elements will come before the target element as the target ele will come after those elements
         for (int num : nums) {
             if (num == target) count++;
             if (num < target) lessThan++;

@@ -23,4 +23,5 @@ public class TargetIndex {
         System.out.println(targetIndices(nums, target));
     }
 
+
 }

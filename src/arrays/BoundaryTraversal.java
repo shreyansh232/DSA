@@ -5,9 +5,10 @@ public class BoundaryTraversal {
 
         //Function to return list of integers that form the boundary
         //traversal of the matrix in a clockwise manner.
-        static ArrayList<Integer> boundaryTraversal(int matrix[][], int n, int m)
+        static ArrayList<Integer> boundaryTraversal(int[][] matrix)
         {
             // code here
+            int n = matrix.length, m = matrix[0].length;
             ArrayList<Integer> res = new ArrayList<>();
 
             int startRow = 0, endRow = n - 1, startCol = 0, endCol = m-1;
@@ -37,6 +38,23 @@ public class BoundaryTraversal {
 
 
 
+    }
+    public static void main(String[] args) {
+
+        //Matrix initialization.
+        int[][] mat = {{1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 16}};
+
+
+        List<Integer> ans = boundaryTraversal(mat);
+
+        for(int i = 0;i<ans.size();i++){
+            System.out.print(ans.get(i) + " ");
+        }
+
+        System.out.println();
     }
 
 }

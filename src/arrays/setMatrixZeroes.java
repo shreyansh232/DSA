@@ -19,6 +19,7 @@ public class setMatrixZeroes {
 //            if (matrix.get(i).get(j) != 0) {
 
 //                matrix.get(i).set(j, -1);
+
 //            }
 //        }
 //    }

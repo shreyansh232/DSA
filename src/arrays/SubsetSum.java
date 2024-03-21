@@ -26,3 +26,4 @@ public class SubsetSum {
         System.out.print(subSetSum(s, 6, a));
     }
 }
+

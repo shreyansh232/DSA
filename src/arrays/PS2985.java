@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.HashMap;
+
 public class PS2985 {
     public int maxSubarrayLength(int[] nums, int k) {
         int ans = 0;

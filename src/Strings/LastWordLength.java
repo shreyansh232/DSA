@@ -1,7 +1,7 @@
 package Strings;
 
 public class LastWordLength {
-    public int lengthOfLastWord(String s) {
+    public static int lengthOfLastWord(String s) {
         int i = s.length() - 1;
         int len = 0;
         while(i >= 0){
@@ -21,6 +21,11 @@ public class LastWordLength {
         return len;
 
 
+    }
+
+    public static void main(String[] args) {
+        String s = " Hello World  ";
+        System.out.println(lengthOfLastWord(s));
     }
 
 }

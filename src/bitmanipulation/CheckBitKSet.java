@@ -1,4 +1,4 @@
-package arrays;
+package bitmanipulation;
 
 public class CheckBitKSet {
     static boolean isKthBitSet(int n, int k) {

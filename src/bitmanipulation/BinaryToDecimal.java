@@ -1,4 +1,4 @@
-package arrays;
+package bitmanipulation;
 
 public class BinaryToDecimal {
     public static int convertToDecimal(String x) {

@@ -1,4 +1,4 @@
-package arrays;
+package bitmanipulation;
 
 public class ClearIthBit {
     static int clearKthBit(int n, int k) {

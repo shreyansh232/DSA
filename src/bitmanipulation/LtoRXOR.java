@@ -10,30 +10,20 @@ public class LtoRXOR {
 
         // }
         // return ans;
-        int l = xor(L - 1);
-        int r = xor(R);
-        int ans = l ^ r;
-        return ans;
+        return xor(L - 1) ^ xor(R);
 
 
 
     }
 
     public static int xor(int n) {
-        switch (n % 4) {
-            case 0:
-                return n;
-            case 1:
-                return 1;
-            case 2:
-                return n + 1;
-            case 3:
-                return 0;
-            default:
-                return 0;
-
-
-        }
+        return switch (n % 4) {
+            case 0 -> n;
+            case 1 -> 1;
+            case 2 -> n + 1;
+            case 3 -> 0;
+            default -> 0;
+        };
     }
 
     public static void main(String[] args) {

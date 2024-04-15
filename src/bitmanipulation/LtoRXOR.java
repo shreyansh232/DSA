@@ -11,9 +11,6 @@ public class LtoRXOR {
         // }
         // return ans;
         return xor(L - 1) ^ xor(R);
-
-
-
     }
 
     public static int xor(int n) {

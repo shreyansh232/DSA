@@ -53,6 +53,7 @@ public class FirstLastPosition {
         return last;
     }
 
+
     public static void main(String[] args) {
         int[] nums = {1,23,34,5,7, 3, 7};
         int target = 3;

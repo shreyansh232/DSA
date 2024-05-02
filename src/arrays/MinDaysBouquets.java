@@ -49,6 +49,7 @@ public class MinDaysBouquets {
             low = Math.min( nums[i] , low);
             high = Math.max ( nums[i] , high);
         }
+
         int ans = 0;
         while(low <= high){
             int mid = (high+low)/2;

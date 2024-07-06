@@ -7,7 +7,6 @@ public class LL {
     private Node tail;
     private int size;
 
-
     public LL(){
         this.size = 0;
     }
@@ -32,7 +31,7 @@ public class LL {
 
     }
 
-    private class Node{
+    public class Node{
         private int value;
         private Node next;
 

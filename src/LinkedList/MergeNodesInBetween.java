@@ -6,6 +6,10 @@ public class MergeNodesInBetween {
         ListNode() {}
         ListNode(int val) { this.val = val; }
         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+        @Override
+        public String toString() {
+            return val + "->" + next;
+        }
     }
     public static ListNode mergeNodes(ListNode head) {
         // Skip the first 0 (list head) as it's a sentinel

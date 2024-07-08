@@ -15,16 +15,27 @@ public class FindWinnerCircle {
 //        }
 //        return list.get(0);
         //Better
+        // Create a queue to simulate the circular list of participants (numbered 1 to n)
         Queue<Integer> queue = new LinkedList<>();
-        for(int i = 1; i <= n; i++){
+
+        // Add all participants (numbers 1 to n) to the queue
+        for (int i = 1; i <= n; i++) {
             queue.add(i);
         }
-        while(queue.size() > 1){
-            for(int i = 0; i < k - 1; i++){
+
+        // While there's more than one participant left in the game
+        while (queue.size() > 1) {
+            // Simulate removing participants one by one (k-1 times)
+            for (int i = 0; i < k - 1; i++) {
+                // Move the participant at the front of the queue to the back (simulate skipping)
                 queue.offer(queue.poll());
             }
+
+            // Remove the participant who loses the round (the one left at the front after skipping)
             queue.poll();
         }
+
+        // The remaining participant in the queue is the winner
         return queue.peek();
     }
 

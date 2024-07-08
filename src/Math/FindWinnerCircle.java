@@ -3,16 +3,29 @@ import java.util.*;
 
 public class FindWinnerCircle {
     public static int findTheWinner(int n, int k) {
-        ArrayList<Integer> list = new ArrayList<>();
+        //Brute
+//        ArrayList<Integer> list = new ArrayList<>();
+//        for(int i = 1; i <= n; i++){
+//            list.add(i);
+//        }
+//        int ind = 0;
+//        while(list.size() > 1){
+//            ind = (ind + (k-1)) % list.size();
+//            list.remove(ind);
+//        }
+//        return list.get(0);
+        //Better
+        Queue<Integer> queue = new LinkedList<>();
         for(int i = 1; i <= n; i++){
-            list.add(i);
+            queue.add(i);
         }
-        int ind = 0;
-        while(list.size() > 1){
-            ind = (ind + (k-1)) % list.size();
-            list.remove(ind);
+        while(queue.size() > 1){
+            for(int i = 0; i < k - 1; i++){
+                queue.offer(queue.poll());
+            }
+            queue.poll();
         }
-        return list.get(0);
+        return queue.peek();
     }
 
     public static void main(String[] args) {

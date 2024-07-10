@@ -1,26 +1,21 @@
 package LinkedList;
 
-public class LinkedListCycle {
-    public static boolean hasCycle(LL.Node head) {
-        LL.Node slow = head;
+public class FindMiddleNode {
+    public static int findMiddleNode(LL.Node head){
         LL.Node fast = head;
+        LL.Node slow = head;
         while(fast != null && fast.next != null){
-            slow = slow.next;
             fast = fast.next.next;
-            if(slow == fast){
-                return true;
-            }
+            slow = slow.next;
         }
-        return false;
-
+        return slow.value;
     }
-
     public static void main(String[] args) {
         LL.Node head = new LL.Node(1);
         head.next = new LL.Node(3);
         head.next.next = new LL.Node(2);
         head.next.next.next = new LL.Node(4);
-        System.out.println(hasCycle(head));
+        System.out.println(findMiddleNode(head));
 
     }
 }

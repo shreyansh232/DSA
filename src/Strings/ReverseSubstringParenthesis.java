@@ -4,38 +4,35 @@ import java.util.*;
 public class ReverseSubstringParenthesis {
     public static String reverseParentheses(String s) {
         StringBuilder str = new StringBuilder();
-
-        char[] chars = s.toCharArray();
         Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i < chars.length; i++) {
-            if (chars[i] == ('(')) {
+        int[] arr = new int[s.length()];
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == ('(')) {
                 stack.push(i);
-            } else if (chars[i] == (')')) {
-                int start = stack.pop();
-                reverse(chars, start + 1, i - 1);
+            } else if (c == (')')) {
+                int openIndex = stack.pop();
+                arr[openIndex] = i;
+                arr[i] = openIndex;
             }
         }
-        for (char c : chars) {
-            if (c != '(' && c != ')') {
+        int dir = 1;
+        int i = 0;
+        while(i < s.length()){
+            char c = s.charAt(i);
+            if(c == '(' || c == ')'){
+                i = arr[i];
+                dir = -1 * dir;
+            }else{
                 str.append(c);
             }
+            i += dir;
         }
         return str.toString();
-    }
-
-    public static void reverse(char[] chars, int start, int end) {
-        while (start < end) {
-            char temp = chars[start];
-            chars[start] = chars[end];
-            chars[end] = temp;
-            start++;
-            end--;
-        }
     }
 
     public static void main(String[] args) {
         String s = "(u(love)i)";
         System.out.println(reverseParentheses(s));
-
     }
 }

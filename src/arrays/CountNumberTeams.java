@@ -36,7 +36,6 @@ public class CountNumberTeams {
                 // Increment count by the product of leftGreaterCount and rightSmallerCount
                 count += leftGreaterCount * rightSmallerCount;
             }
-
             // Return the total count of valid teams
             return count;
         }

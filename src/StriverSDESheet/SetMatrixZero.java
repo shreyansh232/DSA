@@ -8,11 +8,11 @@ public class SetMatrixZero {
 //    public static int[][] setMatrixZero(int[][] matrix){
 //        int n = matrix.length;
 //        int m = matrix[0].length;
-//        for(int i = 0; i < n; i++){
+//        for(int i = 0; i < n; i++){ //Marks all the 1s in the same row and column of 0 as -1
 //            for(int j = 0; j < m; j++){
 //                if(matrix[i][j] == 0){
 //                    row(matrix, n, m, i);
-//                    col(matrix, n, m, i);
+//                    col(matrix, n, m, j);
 //                }
 //            }
 //        }
